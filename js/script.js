@@ -55,3 +55,7 @@ function updateProgressbar(){
 }
 
 
+$(window).on('load',function(){
+    $('.loader').fadeOut(1000);
+    $('.form').fadeIn(1000);
+});
